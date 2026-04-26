@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferrari Speed Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero-card">
+        <div class="hero-copy">
+          <p class="eyebrow">Projeto Web</p>
+          <h1>Ferrari Speed Test</h1>
+          <p class="lead">
+            Uma landing de teste com energia de pista: contraste alto, vermelho
+            intenso, emblema inspirado em performance e um supercarro em destaque.
+          </p>
+          <a class="cta" href="#garage">Entrar na garagem</a>
+        </div>
+
+        <div class="hero-visual" aria-label="Visual Ferrari inspirado">
+          <div class="shield-wrap">
+            <svg viewBox="0 0 220 280" class="shield" role="img" aria-label="Emblema inspirado Ferrari">
+              <path d="M35 18h150l12 68c6 38-8 87-39 120-21 23-38 33-48 38-10-5-27-15-48-38C31 173 17 124 23 86z" />
+              <path class="shield-inner" d="M49 34h122l9 52c5 31-7 71-32 98-17 19-31 28-38 31-7-3-21-12-38-31-25-27-37-67-32-98z" />
+              <text x="110" y="72" text-anchor="middle">S F</text>
+              <rect x="68" y="88" width="84" height="10" rx="5" />
+              <path class="horse" d="M111 107c7 0 11 3 14 7 6 1 9 4 11 9l-5 3 8 10-2 8 9 8-4 12 4 17-10 6-9-2-5 7-14 4-8-6 3-13-8-6 1-10-11 4-5-8 8-7 7-15-4-10 6-3 3-10 6-5z" />
+            </svg>
+          </div>
+
+          <div class="car-wrap" id="garage">
+            <svg viewBox="0 0 720 300" class="car" role="img" aria-label="Carro esportivo vermelho">
+              <defs>
+                <linearGradient id="bodyRed" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#ff3b30" />
+                  <stop offset="45%" stop-color="#d6001c" />
+                  <stop offset="100%" stop-color="#72000f" />
+                </linearGradient>
+              </defs>
+              <path class="glow-line" d="M92 215c54-4 88-27 128-78 22-27 49-39 85-40h105c56 0 101 15 143 54l53 49c17 15 26 33 26 52H88c-12 0-22-9-22-21v-7c0-5 2-9 6-9z" />
+              <path class="body" d="M93 214c46-5 86-29 123-76 22-28 52-40 89-40h102c56 0 104 18 143 55l49 38c14 11 24 25 28 42H78c2-9 7-15 15-19z" />
+              <path class="window" d="M279 109h108c33 0 62 10 91 31l30 22H236l22-29c6-8 13-14 21-18 7-4 14-6 22-6z" />
+              <path class="accent" d="M165 220h111c37 0 62-8 90-28 5-4 12-3 15 2 3 5 2 12-3 15-30 22-61 33-102 33H159c-7 0-11-5-11-11 0-6 6-11 17-11z" />
+              <circle class="wheel outer" cx="224" cy="236" r="42" />
+              <circle class="wheel outer" cx="530" cy="236" r="42" />
+              <circle class="wheel inner" cx="224" cy="236" r="21" />
+              <circle class="wheel inner" cx="530" cy="236" r="21" />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
